@@ -14,4 +14,4 @@ All materials are available at <https://github.com/MoekoOkada/BIO373_2022>
     Read mapping
 - 5_GATK.md
     Variant calling
-- X_Excercises.md
+- 6_Excercises.md
