@@ -36,7 +36,7 @@ We can use it in subsequent steps.
 ```bash
 $ mkdir 01_aligned
 $ acc=516950
-$ bwa mem -M -t 2 -R "@RG\tID:CAV90ANXX.6\tPL:Illumina\tLB:${acc}\tSM:${acc}" 00_input/MedtrChr2.fa 00_input/${acc}_chr2_R{1,2}.fastq.gz | samtools sort -m 16G -T /scratch/bio373_2021/YOUR_USERNAME -o 01_aligned/${acc}.sorted.bam
+$ bwa mem -M -t 2 -R "@RG\tID:CAV90ANXX.6\tPL:Illumina\tLB:${acc}\tSM:${acc}" 00_input/MedtrChr2.fa 00_input/${acc}_chr2_R{1,2}.fastq.gz | samtools sort -m 16G -T /scratch/bio373_2022/YOUR_USERNAME -o 01_aligned/${acc}.sorted.bam
 $ samtools index 01_aligned/${acc}.sorted.bam
 ```
 
