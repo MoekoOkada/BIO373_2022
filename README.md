@@ -8,8 +8,8 @@ All materials are available at <https://github.com/MoekoOkada/BIO373_2022>
     The review of the commands.
 - 2_BashScripting.md
     The tips for bash scripting. Appendix.
-- 3_Setup.md
-    How to set up environment on the server for variant calling.
+- 3_QualityControl.md
+    Set up the environment and quality control.
 - 4_Mapping.md
     Read mapping
 - 5_GATK.md
