@@ -36,7 +36,7 @@ Start from your directory on the server for the course and make a new folder for
 
 ```bash
 $ ssh your_BFabric_account_name@172.23.30.6
-$ cd /scratch/bio373_2021/YOUR_USERNAME
+$ cd /scratch/bio373_2022/YOUR_USERNAME
 $ mkdir VarCall
 ```
 
