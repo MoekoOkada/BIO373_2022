@@ -186,13 +186,13 @@ $ ln -s /scratch/bio373_2022/data/CommandLine
 
 ```bash
 # move to working directory
-$ cd /scratch/bio373_2022/YOUR_USERNAME/Command
+$ cd /scratch/bio373_2022/YOUR_USERNAME/test
 # merge
-data $ cat file1.txt file2.txt > merged_file.txt
+data $ cat CommandLine/file1.txt CommandLine/file2.txt > merged_file.txt
 
 # quick display on screen
-data $ cat file1.txt
-data $ cat file1.txt file2.txt
+data $ cat CommandLine/file1.txt
+data $ cat CommandLine/file1.txt CommandLine/file2.txt
 ```
 
 * * *
