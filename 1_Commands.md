@@ -173,7 +173,7 @@ Often you'll want/need to have a file in directories in several locations. Inste
 ```bash
 # move to your directory if you are not there
 $ cd /scratch/bio373_2022/YOUR_USERNAME 
-$ ln -s /scratch/bio373_2022/data/Command
+$ ln -s /scratch/bio373_2022/data/CommandLine
 ```
 
 * * *
