@@ -48,7 +48,7 @@ We use symlinks to help save diskspace on the server.
 $ cd VarCall
 $ mkdir 00_input
 $ cd 00_input
-$ dataDir="/scratch/bio373_2022/data/VarCall/00_input"
+$ dataDir="/scratch/bio373_2022/data/VarCall/00_inputs"
 $ ln -s ${dataDir}/MedtrChr2.fa
 $ ln -s ${dataDir}/516950_chr2_R1.fastq.gz
 $ ln -s ${dataDir}/516950_chr2_R2.fastq.gz

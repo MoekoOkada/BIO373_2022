@@ -3,8 +3,8 @@
 ## Question 1: Create symbolic link of this GFF file to your directory.
 
 ```bash
-$ cd /scratch/bio373_2021/YOUR_DIRECTORY
-$ ln -s /scratch/bio373_2021/data/SNPcalling/reference/Ahal.gff
+$ cd /scratch/bio373_2022/YOUR_DIRECTORY
+$ ln -s /scratch/bio373_2022/data/SNPcalling/reference/Ahal.gff
 $ ls
 Ahal.gff
 $

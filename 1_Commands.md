@@ -173,7 +173,7 @@ Often you'll want/need to have a file in directories in several locations. Inste
 ```bash
 # move to your directory if you are not there
 $ cd /scratch/bio373_2022/YOUR_USERNAME 
-$ ln -s /scratch/bio373_2022/data/CommandLine
+$ ln -s /scratch/bio373_2022/data/Command
 ```
 
 * * *
@@ -186,13 +186,13 @@ $ ln -s /scratch/bio373_2022/data/CommandLine
 
 ```bash
 # move to working directory
-$ cd /scratch/bio373_2022/YOUR_USERNAME/test
+$ cd /scratch/bio373_2022/YOUR_USERNAME/Command
 # merge
-data $ cat CommandLine/file1.txt CommandLine/file2.txt > merged_file.txt
+data $ cat file1.txt file2.txt > merged_file.txt
 
 # quick display on screen
-data $ cat CommandLine/file1.txt
-data $ cat CommandLine/file1.txt CommandLine/file2.txt
+data $ cat file1.txt
+data $ cat file1.txt file2.txt
 ```
 
 * * *
@@ -235,6 +235,7 @@ grep [-civ] "pattern" file(s).txt
 `-c`: counts the number of lines it appears in, suppresses printing
 `-v`: inverse match: returns the lines that do NOT contain the pattern
 `-i`: Perform case insensitive match
+`-o`: print only the matched (non-empty) parts of a matching line, with each such part on a separate output line.
 `'^word'`: ^ searches for lines beginning only with 'word'
 `'word$'`: $ searches for lines only ending with 'word'
 `'word\b'`: limit search with \\b (ie "words" not found, "sword" found)
@@ -400,7 +401,7 @@ Examples
 $ echo "10 1 12 11 100 2" | tr ' ' '\n' | sort
 $ echo "10 1 12 11 100 2" | tr ' ' '\n' | sort -n
 $ echo "10 1 12 11 100 2" | tr ' ' '\n' | sort -nr
-$ echo "12 10 11 12 12 11" | tr ' ' '\n' | sort -u
+$ echo "10 1 12 11 100 12 11 2" | tr ' ' '\n' | sort -u
 ```
 
 * * *
